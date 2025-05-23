@@ -1,23 +1,30 @@
 # Product Management Frontend
 
-This is the ReactJS frontend for the Product Management Web Application. It allows users to:
+This is the ReactJS frontend application for managing products using a REST API backend.
 
-- ✅ Create products
-- 🔍 Retrieve products by name
-- 🗑️ Delete products directly from the list
+## Features
 
-## 📦 Technologies Used
+- ✅ Create new products
+- 🔍 Search products by name
+- 🗑️ Delete products from the list
+- 📋 Displays results in a table layout using Material UI
+
+## Technologies Used
 
 - ReactJS
-- Material UI (MUI)
-- Axios for HTTP requests
+- Material UI
+- Axios (for API requests)
+
+## Backend API
+
+Make sure the Spring Boot backend is running before using the frontend.  
+Backend repository: [product-management-backend](https://github.com/Ahamedrifayee97/product-management-backend)
 
 ---
 
-## 🚀 Getting Started
-
-### 1. Clone the Repository
+### Setup Instructions
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/product-management-frontend.git
-cd product-management-frontend
+npm install
+npm start
+
